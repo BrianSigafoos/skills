@@ -21,6 +21,10 @@ Create or align tools repos by copying the established patterns from fast-format
 - Add `README.md` with a short product summary, quick start, and development notes.
 - Add `AGENTS.md` with project overview, dev commands, formatting, and testing notes.
 - Use `docs/` for the hosted site and set `docs/CNAME` to `<tool-slug>.bfoos.net`.
+- The hosted site supports dark mode with a user toggle and defaults to system color scheme unless toggled.
+- Place the dark mode toggle in the top-right corner by default unless the layout demands otherwise.
+- The hosted site footer links to `https://briansigafoos.com`, `https://github.com/BrianSigafoos/<repo>`, and `https://tools.bfoos.net`.
+- The hosted site is mobile responsive.
 - Keep the repo name, domain, and CLI alias consistent with the tool slug.
 - Use `https://github.com/BrianSigafoos/<repo>` for GitHub links.
 
